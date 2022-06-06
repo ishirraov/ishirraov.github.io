@@ -1,37 +1,4 @@
-## Welcome to GitHub Pages
+Modeling and Optimization of Epidemiological Control Policies through Reinforcement Learning
 
-You can use the [editor on GitHub](https://github.com/ishirraov/ishirraov.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ishirraov/ishirraov.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Abstract:
+Pandemics involve high transmission of a disease that impact global and local health and economical patterns. The impact of a pandemic can be minimized by enforcing certain restrictions on a community. However, these restrictions, while minimizing infection and death rates, can also lead to economic crisis. Epidemiological models help to propose pandemic control strategies based on non-pharmaceutical interventions such as social distancing, curfews, and lockdowns which reduce the economic impact of these restrictions. However, designing manual control strategies while taking into account disease spread and economical status is non-trivial. Optimal strategies can be designed through multi-objective reinforcement learning (MORL) models which demonstrate how restrictions can be used to optimize the outcome of a pandemic. In this research, I utilize an epidemiological SEIRD (Susceptible, Exposed, Infected, Recovered, Deceased) model – a compartmental model for virtually simulating a pandemic day-by-day. This is combined with a deep double recurrent Q-network to train an agent to enforce the optimal restriction on the SEIRD simulation based on a reward function. I tested two agents with unique reward functions and pandemic goals to obtain two strategies. The first agent placed long lockdowns to reduce the initial spread of the disease, followed by cyclical and shorter lockdowns to mitigate the resurgence of the disease. The second agent provided similar infection rates but an improved economy by implementing a 10-day lockdown and 20-day no restriction cycle. By implementing these automated strategies, humanity can efficiently develop novel pandemic control policies that minimize disease spread and the economic impacts of pandemics.
