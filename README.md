@@ -4,8 +4,7 @@
   </head>
   <body>
     <pre>
-    <code>
-      from scipy.integrate import solve_ivp
+    <code>from scipy.integrate import solve_ivp
 import numpy as np
 from matplotlib import pyplot as plt
 import random
