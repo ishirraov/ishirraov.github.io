@@ -1,4 +1,12 @@
-from scipy.integrate import solve_ivp
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project Code</title>
+  </head>
+  <body>
+    <pre>
+    <code>
+      from scipy.integrate import solve_ivp
 import numpy as np
 from matplotlib import pyplot as plt
 import random
@@ -448,3 +456,7 @@ plt.plot(none)
 plt.plot(one)
 plt.plot(two)
 plt.plot(three)
+      </code>
+      </pre>
+      </body>
+    </html>
